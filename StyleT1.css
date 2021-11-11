@@ -1,0 +1,109 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    color: black;
+   padding: 3px;
+    margin: 0px;
+}
+h1:hover{
+    color: aqua;
+    background: gray;
+}
+h3:hover{
+    color:aquamarine;
+    background: gray;
+}
+/*links starts */
+.links{
+    background: black;
+    position:relative;
+    top: 50px;
+    border: 2px double gray;
+    padding: 10px;
+    margin: 2px;
+}
+.l{
+    text-decoration: none;
+}
+.l:active{
+background: white;    
+}
+.l:hover{
+    background-color:crimson;
+}
+/*links ends */
+#left{
+    float: left;
+    position:absolute;
+    margin: 10px;
+    padding: 10px;
+    left: 0px;
+    top: 225px;
+     width: 800px ; height: 400px;
+    background-color:beige;
+    
+}
+#left2{
+      float: left;
+    position:absolute;
+    margin: 10px;
+    padding: 10px;
+    left: 0px;
+    top: 580px;
+       width: 800px ; height: 400px;
+    background-color:cornsilk;
+}
+#right{
+    float: right;
+    position: relative;
+    top: 35px;
+   right: 70px;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 100;
+}
+#bottom{
+    width: 100% ; height: 100px; 
+    padding: 10px; 
+    position: absolute; top: 999px;
+    background-color:black;
+}
+#bottom:hover{
+    background-color: aqua;
+}
+
+
+
+/*media quary*/
+
+
+@media screen and (max-width: 1000px) {
+ 
+     #right{
+          float: right;
+           position: absolute;
+          top:250px;
+          right:5px;
+         
+      }
+   #left,#left2{ width: 600px; font-size: 20px;}
+    #img1{width: 400px;}
+     #img2{width: 300px;}
+          
+      }
+
+
+@media screen and (min-width: 1000px) {
+  #right{
+      float: right;
+      position: absolute;
+      right: 0px;
+      top: 230px;
+      width: 370px;
+      background-color: antiquewhite;
+      }
+#left,#left2{ width: 600px;}
+}
